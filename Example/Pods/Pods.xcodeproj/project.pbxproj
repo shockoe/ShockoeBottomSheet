@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25C0916CA39002A955AFA016944E32B3 /* Pods-ShockoeBottomSheet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4989B33FA724BE717FF23AEDABEF9A0F /* Pods-ShockoeBottomSheet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3777DA840C1D246991475CF2106D03CA /* ShockoeBottomSheet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 033BD486085B2A3BC321BA6B6B8E689A /* ShockoeBottomSheet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9983BA8FFE15EA68C71ACE9B360544CE /* ShockoeBottomSheet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC45D29B1297F397491408104EFEC554 /* ShockoeBottomSheet-dummy.m */; };
+		A6A1793E5440BA3C1606DFCCA5E304B8 /* Pods-ShockoeBottomSheet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A39B771598B3E83A9465824DA1DF62D8 /* Pods-ShockoeBottomSheet_Tests-dummy.m */; };
+		D09121E923C3E1FC00BD5786 /* ShockoeBottomSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09121E823C3E1FC00BD5786 /* ShockoeBottomSheetController.swift */; };
+		E907DDC08AC730D19E1F0B16F6AFDCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EC9A51BBFE855CD94784EB9CF7CB08B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C8394F26C444FE3F242C236F9773A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EC49C81F7D2AFE1ECCFC74272017BF;
+			remoteInfo = ShockoeBottomSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033BD486085B2A3BC321BA6B6B8E689A /* ShockoeBottomSheet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShockoeBottomSheet-umbrella.h"; sourceTree = "<group>"; };
+		1DDC3A8B9326774047C5DED38E76A4F1 /* ShockoeBottomSheet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShockoeBottomSheet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F0E0A27D16FD2BAE14210F452474D68 /* Pods-ShockoeBottomSheet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeBottomSheet_Tests-Info.plist"; sourceTree = "<group>"; };
+		1FC610956A86F504D8410B1402689D03 /* Pods-ShockoeBottomSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeBottomSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		480FC0DB676DA088D8A9DF7F97DFB066 /* Pods-ShockoeBottomSheet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShockoeBottomSheet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4989B33FA724BE717FF23AEDABEF9A0F /* Pods-ShockoeBottomSheet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShockoeBottomSheet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4AEC1624B75C2C2B7609C0E0148310EB /* Pods-ShockoeBottomSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShockoeBottomSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50A353E3E2F41DCB7352AB180BEE58C3 /* Pods-ShockoeBottomSheet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShockoeBottomSheet_Tests.modulemap"; sourceTree = "<group>"; };
+		76FB6689CDBD217CDC5A144EB83B51C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7DDC97C0325EC9A540AE7D1720B4F2FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		80716E0D32F2BA82F93AB045B0B1ED5C /* ShockoeBottomSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShockoeBottomSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A40A68CBD851AE3A70DCCA5DD17C90 /* Pods_ShockoeBottomSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShockoeBottomSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960F78EBDF62DA471156330C020F248B /* ShockoeBottomSheet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShockoeBottomSheet.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A39B771598B3E83A9465824DA1DF62D8 /* Pods-ShockoeBottomSheet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShockoeBottomSheet_Tests-dummy.m"; sourceTree = "<group>"; };
+		A7E4569044061B00368B779B48CB3579 /* ShockoeBottomSheet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShockoeBottomSheet-Info.plist"; sourceTree = "<group>"; };
+		B44752E141F785B954810E5E5245681D /* ShockoeBottomSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShockoeBottomSheet-prefix.pch"; sourceTree = "<group>"; };
+		D09121E823C3E1FC00BD5786 /* ShockoeBottomSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShockoeBottomSheetController.swift; path = ../ShockoeBottomSheet/Classes/ShockoeBottomSheetController.swift; sourceTree = "<group>"; };
+		D963F53350FBBF26BABBA719F4E156F7 /* Pods-ShockoeBottomSheet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShockoeBottomSheet_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EDDE75F53C3BACC8CD185D177198A2C9 /* Pods-ShockoeBottomSheet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShockoeBottomSheet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC45D29B1297F397491408104EFEC554 /* ShockoeBottomSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShockoeBottomSheet-dummy.m"; sourceTree = "<group>"; };
+		FF44070A85D2DEF340EF2E93246F0850 /* ShockoeBottomSheet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShockoeBottomSheet.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12EF767D8CAE277F931A715133456940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E907DDC08AC730D19E1F0B16F6AFDCCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB77F269B9335469FE1E84E6A5453C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9A51BBFE855CD94784EB9CF7CB08B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D8CEE51B38AF1141825BD65F681FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A40A68CBD851AE3A70DCCA5DD17C90 /* Pods_ShockoeBottomSheet_Tests.framework */,
+				80716E0D32F2BA82F93AB045B0B1ED5C /* ShockoeBottomSheet.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F721E04716D4903ACBDB9AB4A580FBC /* ShockoeBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D09121E523C3DE3E00BD5786 /* Classes */,
+				7096531BD0606FE7C333CB8C95347AE4 /* Pod */,
+				7B8DEF0E412E271B8956911F76B52463 /* Support Files */,
+			);
+			name = ShockoeBottomSheet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		300C815A0D36FFA62E349A815E71F47B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F721E04716D4903ACBDB9AB4A580FBC /* ShockoeBottomSheet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7096531BD0606FE7C333CB8C95347AE4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7DDC97C0325EC9A540AE7D1720B4F2FF /* LICENSE */,
+				76FB6689CDBD217CDC5A144EB83B51C6 /* README.md */,
+				1DDC3A8B9326774047C5DED38E76A4F1 /* ShockoeBottomSheet.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		77C4320CEA2FA21CD50696DB6CA00F1B /* Pods-ShockoeBottomSheet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				50A353E3E2F41DCB7352AB180BEE58C3 /* Pods-ShockoeBottomSheet_Tests.modulemap */,
+				480FC0DB676DA088D8A9DF7F97DFB066 /* Pods-ShockoeBottomSheet_Tests-acknowledgements.markdown */,
+				EDDE75F53C3BACC8CD185D177198A2C9 /* Pods-ShockoeBottomSheet_Tests-acknowledgements.plist */,
+				A39B771598B3E83A9465824DA1DF62D8 /* Pods-ShockoeBottomSheet_Tests-dummy.m */,
+				D963F53350FBBF26BABBA719F4E156F7 /* Pods-ShockoeBottomSheet_Tests-frameworks.sh */,
+				1F0E0A27D16FD2BAE14210F452474D68 /* Pods-ShockoeBottomSheet_Tests-Info.plist */,
+				4989B33FA724BE717FF23AEDABEF9A0F /* Pods-ShockoeBottomSheet_Tests-umbrella.h */,
+				1FC610956A86F504D8410B1402689D03 /* Pods-ShockoeBottomSheet_Tests.debug.xcconfig */,
+				4AEC1624B75C2C2B7609C0E0148310EB /* Pods-ShockoeBottomSheet_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShockoeBottomSheet_Tests";
+			path = "Target Support Files/Pods-ShockoeBottomSheet_Tests";
+			sourceTree = "<group>";
+		};
+		7B8DEF0E412E271B8956911F76B52463 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				960F78EBDF62DA471156330C020F248B /* ShockoeBottomSheet.modulemap */,
+				FF44070A85D2DEF340EF2E93246F0850 /* ShockoeBottomSheet.xcconfig */,
+				FC45D29B1297F397491408104EFEC554 /* ShockoeBottomSheet-dummy.m */,
+				A7E4569044061B00368B779B48CB3579 /* ShockoeBottomSheet-Info.plist */,
+				B44752E141F785B954810E5E5245681D /* ShockoeBottomSheet-prefix.pch */,
+				033BD486085B2A3BC321BA6B6B8E689A /* ShockoeBottomSheet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShockoeBottomSheet";
+			sourceTree = "<group>";
+		};
+		8EB2C9C81CA79591AE7A3CBFE849DC62 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C4320CEA2FA21CD50696DB6CA00F1B /* Pods-ShockoeBottomSheet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				300C815A0D36FFA62E349A815E71F47B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				03D8CEE51B38AF1141825BD65F681FFB /* Products */,
+				8EB2C9C81CA79591AE7A3CBFE849DC62 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D09121E523C3DE3E00BD5786 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D09121E823C3E1FC00BD5786 /* ShockoeBottomSheetController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		582B036B139DC03269501A06AEEB8A3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C0916CA39002A955AFA016944E32B3 /* Pods-ShockoeBottomSheet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D198F75E1539FD305D421733077C7528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3777DA840C1D246991475CF2106D03CA /* ShockoeBottomSheet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A4EC49C81F7D2AFE1ECCFC74272017BF /* ShockoeBottomSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA935555C798CDB837AD76466B666A54 /* Build configuration list for PBXNativeTarget "ShockoeBottomSheet" */;
+			buildPhases = (
+				D198F75E1539FD305D421733077C7528 /* Headers */,
+				2365BC31C5E35EB99A6A3B5B163B3DAE /* Sources */,
+				12EF767D8CAE277F931A715133456940 /* Frameworks */,
+				70D8FEFF5B3F27A93C79EC7254B704CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShockoeBottomSheet;
+			productName = ShockoeBottomSheet;
+			productReference = 80716E0D32F2BA82F93AB045B0B1ED5C /* ShockoeBottomSheet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3C1BBE6680E4A0BE262082AC727DF50 /* Pods-ShockoeBottomSheet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00268813830BF1C5ACB63CBE07BEF59D /* Build configuration list for PBXNativeTarget "Pods-ShockoeBottomSheet_Tests" */;
+			buildPhases = (
+				582B036B139DC03269501A06AEEB8A3E /* Headers */,
+				022A0631E570CC84FEF975DAAD43167E /* Sources */,
+				3EDB77F269B9335469FE1E84E6A5453C /* Frameworks */,
+				F78F1CA73FCB3EA58953B33AF00452AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A82D2FEC4805928E0BBCA4C5817EDF /* PBXTargetDependency */,
+			);
+			name = "Pods-ShockoeBottomSheet_Tests";
+			productName = "Pods-ShockoeBottomSheet_Tests";
+			productReference = 85A40A68CBD851AE3A70DCCA5DD17C90 /* Pods_ShockoeBottomSheet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					E3C1BBE6680E4A0BE262082AC727DF50 = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 03D8CEE51B38AF1141825BD65F681FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3C1BBE6680E4A0BE262082AC727DF50 /* Pods-ShockoeBottomSheet_Tests */,
+				A4EC49C81F7D2AFE1ECCFC74272017BF /* ShockoeBottomSheet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70D8FEFF5B3F27A93C79EC7254B704CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78F1CA73FCB3EA58953B33AF00452AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022A0631E570CC84FEF975DAAD43167E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1793E5440BA3C1606DFCCA5E304B8 /* Pods-ShockoeBottomSheet_Tests-dummy.m in Sources */,
+				D09121E923C3E1FC00BD5786 /* ShockoeBottomSheetController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2365BC31C5E35EB99A6A3B5B163B3DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9983BA8FFE15EA68C71ACE9B360544CE /* ShockoeBottomSheet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0A82D2FEC4805928E0BBCA4C5817EDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShockoeBottomSheet;
+			target = A4EC49C81F7D2AFE1ECCFC74272017BF /* ShockoeBottomSheet */;
+			targetProxy = 22C8394F26C444FE3F242C236F9773A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		354512778A4B34034FA59DE53B5E554B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC610956A86F504D8410B1402689D03 /* Pods-ShockoeBottomSheet_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShockoeBottomSheet_Tests/Pods-ShockoeBottomSheet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShockoeBottomSheet_Tests/Pods-ShockoeBottomSheet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A395960CECB6F3B48C6FA112C48DE019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF44070A85D2DEF340EF2E93246F0850 /* ShockoeBottomSheet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShockoeBottomSheet/ShockoeBottomSheet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShockoeBottomSheet/ShockoeBottomSheet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShockoeBottomSheet/ShockoeBottomSheet.modulemap";
+				PRODUCT_MODULE_NAME = ShockoeBottomSheet;
+				PRODUCT_NAME = ShockoeBottomSheet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9344410D70ADD699800BC3098AD0815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEC1624B75C2C2B7609C0E0148310EB /* Pods-ShockoeBottomSheet_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShockoeBottomSheet_Tests/Pods-ShockoeBottomSheet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShockoeBottomSheet_Tests/Pods-ShockoeBottomSheet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E256DBB890C2221847E5492B44FB89B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF44070A85D2DEF340EF2E93246F0850 /* ShockoeBottomSheet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShockoeBottomSheet/ShockoeBottomSheet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShockoeBottomSheet/ShockoeBottomSheet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShockoeBottomSheet/ShockoeBottomSheet.modulemap";
+				PRODUCT_MODULE_NAME = ShockoeBottomSheet;
+				PRODUCT_NAME = ShockoeBottomSheet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00268813830BF1C5ACB63CBE07BEF59D /* Build configuration list for PBXNativeTarget "Pods-ShockoeBottomSheet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354512778A4B34034FA59DE53B5E554B /* Debug */,
+				D9344410D70ADD699800BC3098AD0815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA935555C798CDB837AD76466B666A54 /* Build configuration list for PBXNativeTarget "ShockoeBottomSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E256DBB890C2221847E5492B44FB89B8 /* Debug */,
+				A395960CECB6F3B48C6FA112C48DE019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

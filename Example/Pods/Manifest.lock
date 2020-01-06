@@ -1,0 +1,16 @@
+PODS:
+  - ShockoeBottomSheet (0.1.0)
+
+DEPENDENCIES:
+  - ShockoeBottomSheet (from `../`)
+
+EXTERNAL SOURCES:
+  ShockoeBottomSheet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShockoeBottomSheet: 6b138f89ac95ce50f049567c375f2a7121573375
+
+PODFILE CHECKSUM: 1558923ca1716a1b05f51bfdfb764705265404e8
+
+COCOAPODS: 1.8.4

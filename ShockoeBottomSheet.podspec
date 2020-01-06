@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ShockoeBottomSheet.podspec' to ensure this is a
+# Be sure to run `pod lib lint ShockoeKeychainWrapper.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -9,34 +9,16 @@
 Pod::Spec.new do |s|
   s.name             = 'ShockoeBottomSheet'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ShockoeBottomSheet.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Bottom sheet to be used in Shockoe Native iOS Applications.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Bottom sheet to be used in Shockoe Native iOS Applications.'
                        DESC
-
-  s.homepage         = 'https://github.com/Justin Boswell/ShockoeBottomSheet'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.module_name      = "ShockoeBottomSheet"
+  s.homepage         = 'https://bitbucket.org/shockoe/shockoebottomsheet'
+  s.license          = 'MIT'
   s.author           = { 'Justin Boswell' => 'justin.boswell@shockoe.com' }
-  s.source           = { :git => 'https://github.com/Justin Boswell/ShockoeBottomSheet.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ShockoeBottomSheet/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ShockoeBottomSheet' => ['ShockoeBottomSheet/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source           = { :git => 'git@bitbucket.org:shockoe/shockoebottomsheet.git', :tag => s.version }
+  s.ios.deployment_target = '10.0'
+  s.swift_version = ['4.2', '5.0']
+  s.source_files = 'ShockoeBottomSheet/Classes/'
 end
