@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ShockoeBottomSheet_Tests' do
+  pod 'ShockoeBottomSheet', :path => '../'
+  
+  
+end
