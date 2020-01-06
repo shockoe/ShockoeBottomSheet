@@ -1,29 +1,43 @@
 # ShockoeBottomSheet
 
-[![CI Status](https://img.shields.io/travis/Justin Boswell/ShockoeBottomSheet.svg?style=flat)](https://travis-ci.org/Justin Boswell/ShockoeBottomSheet)
-[![Version](https://img.shields.io/cocoapods/v/ShockoeBottomSheet.svg?style=flat)](https://cocoapods.org/pods/ShockoeBottomSheet)
-[![License](https://img.shields.io/cocoapods/l/ShockoeBottomSheet.svg?style=flat)](https://cocoapods.org/pods/ShockoeBottomSheet)
-[![Platform](https://img.shields.io/cocoapods/p/ShockoeBottomSheet.svg?style=flat)](https://cocoapods.org/pods/ShockoeBottomSheet)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## About
+
+The ShockoeBottomSheet is a clone of the [PullUpController](https://github.com/MarioIannotta/PullUpController). We cloned this repo to extend the functionality of the repository and allow it to be maintained internally.
 
 ## Installation
 
-ShockoeBottomSheet is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+ShockoeBottomSheet is available through [CocoaPods](https://cocoapods.org).
 
-```ruby
-pod 'ShockoeBottomSheet'
+To install it, first enter the pod repo add command into your terminal:
+```bash
+pod repo add ShockoeCocoaPods git@bitbucket.org:shockoe/shockoecocoapods.git
 ```
 
+The repositories where the source code is hosted is private. You will need to have your ssh key added for the organization in order to install them.
+
+Next, simply add the following lines to your Podfile:
+
+```ruby
+source 'git@bitbucket.org:shockoe/shockoecocoapods.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+...
+
+pod 'ShockoeBottomSheet'
+```
 ## Author
 
-Justin Boswell, justin.boswell@shockoe.com
+SHOCKOE.COM, LLC
 
 ## License
 
 ShockoeBottomSheet is available under the MIT license. See the LICENSE file for more info.
+
+
+---
+
+[![N|Solid](https://cdn.shockoe.com/wp-content/uploads/2016/12/27150209/shockoe.enterprise.orange-864.png)](https://www.shockoe.com)
