@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
     Bottom sheet to be used in Shockoe Native iOS Applications.'
                        DESC
   s.module_name      = "ShockoeBottomSheet"
-  s.homepage         = 'https://bitbucket.org/shockoe/shockoebottomsheet'
+  s.homepage         = 'https://github.com/shockoe/ShockoeBottomSheet'
   s.license          = 'MIT'
   s.author           = { 'Justin Boswell' => 'justin.boswell@shockoe.com' }
-  s.source           = { :git => 'git@bitbucket.org:shockoe/shockoebottomsheet.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/shockoe/ShockoeBottomSheet.git', :tag => s.version }
   s.ios.deployment_target = '10.0'
   s.swift_version = ['4.2', '5.0']
   s.source_files = 'ShockoeBottomSheet/Classes/'

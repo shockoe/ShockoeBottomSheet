@@ -22,7 +22,7 @@ The repositories where the source code is hosted is private. You will need to ha
 Next, simply add the following lines to your Podfile:
 
 ```ruby
-source 'git@bitbucket.org:shockoe/shockoecocoapods.git'
+source 'https://github.com/shockoe/ShockoePods.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 ...
