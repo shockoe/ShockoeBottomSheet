@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShockoeBottomSheet'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Bottom sheet to be used in Shockoe Native iOS Applications.'
   s.description      = <<-DESC
     Bottom sheet to be used in Shockoe Native iOS Applications.'

@@ -40,4 +40,4 @@ ShockoeBottomSheet is available under the MIT license. See the LICENSE file for 
 
 ---
 
-[![N|Solid](https://cdn.shockoe.com/wp-content/uploads/2016/12/27150209/shockoe.enterprise.orange-864.png)](https://www.shockoe.com)
+[![N|Solid](https://cdn.shockoe.com/wp-content/uploads/2018/05/19140843/Shockoe-Logo.png)](https://www.shockoe.com)
